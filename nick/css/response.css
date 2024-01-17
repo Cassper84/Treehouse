@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 768px){
+    header{
+        height: 110px;
+        display: flex;
+        width: 99%;
+        border-bottom: 5px solid  rgba(0, 128, 0, 0.562);
+    }
+
+    .text-header h1{
+        margin-left: 15%;
+        font-size: 2.40em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .text-header p{
+        font-size: 15px;
+        margin-left: 30px;
+
+    }
+
+    .nav{
+        background: none;
+        font-size: 1.25em;
+        margin-top: 30px;
+        margin-left: 30%;
+    }
+
+    .wrapper{
+        height: 800px;
+        padding: 20px;
+    }
+    .photo{
+        padding-bottom: 50px;
+    }
+    .img{
+        height: 250px;
+        width: 50%;
+        margin: 20px;
+    }
+    .pic{
+        height: 250px;
+        margin: 80px 20px;
+    }
+
+    /* ABOUT */
+
+    .profile{
+        border-radius: 0%;
+        object-fit: contain;
+        height: 200px;
+    }
+
+    /* CONTACT */
+    .contact-wrapper{
+        display: flex;
+    }
+    .contact{
+        height: 300px;
+        width: 50%;
+        margin-top: 30px;
+        padding-left: 20px;
+            
+    }
+    .contact h1{
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .contact p{
+        color: grey;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .reach{
+        height: 50px;
+        width: 100%;
+        display: flex;
+    }
+    .reach p{
+        margin-left: 10px;
+    }
+}
+
+
+@media screen and (min-width: 1000px){
+
+    header{
+        height: 130px;
+    }
+    
+    .text-header h1{
+        font-size: 3.0em;
+    }
+
+    .nav{
+        font-size: 1.40em;
+        margin-top: 40px;
+        margin-left: 55%;
+    }
+
+
+    .wrapper{
+        height: 800px;
+    }
+
+    .img{
+        height: 250px;
+        width: 25%;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+
+    .pic{
+        height: 250px;
+        width: 25%;
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+
+    .profile{
+        border-radius: 0;
+        height: 250px;
+        object-fit: contain;
+    }
+
+    .about2{
+        margin-top: 80px;
+        height: 200px;
+    }
+    /* CONTACT */
+
+    .contact-wrapper{
+        width: 70%;
+        margin-top: 20px;
+        margin: auto;
+    
+    }
+    .contact{
+        margin-top: 50PX;  
+    }
+    .con{
+        margin-left: 50px;
+    }
+    .reach{
+        margin-left: 50px;
+    }
+}
